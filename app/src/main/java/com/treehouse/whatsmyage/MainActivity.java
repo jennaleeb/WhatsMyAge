@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // R.id.datePicker updateDate (1940, 1, 1)
 
         mDatePicker = (DatePicker) findViewById(R.id.datePicker);
         mDatePicker.updateDate(1940, 0, 01);
@@ -32,14 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 int year = mDatePicker.getYear();
                 int month = mDatePicker.getMonth();
                 int day = mDatePicker.getDayOfMonth();
-
-//                Context context = getApplicationContext();
-//                CharSequence text = calculateAge(year,month,day) + "";
-//                int duration = Toast.LENGTH_SHORT;
-//
-//                Toast toast = Toast.makeText(context, text, duration);
-//                toast.show();
-
 
                 int age = calculateAge(year,month,day);
                 displayAge(age+"");
