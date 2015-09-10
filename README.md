@@ -1,0 +1,1 @@
+This is a simple Android application that I made while learning Android Studio. My mother never remembers how old she is, so it enables her to enter/store her birthday and retrieve her age on command!
