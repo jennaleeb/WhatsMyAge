@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhatsMyAge</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="pick_date">What is your birthday?</string>
+    <string name="title_activity_age">Resulting Age</string>
+
+    <string name="get_age">age</string>
+</resources>
